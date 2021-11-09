@@ -1,0 +1,109 @@
+
+/*A romper código..*/
+body {
+    background-color: rgb(18, 72, 122);
+    font-family: 'Georama', sans-serif;
+    margin: 0;
+}
+
+.menu-principal {
+    background-color: rgb(16, 47, 105);
+    height: auto;
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+#menu-navegacion li a {
+    color: rgb(255, 255, 255);
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: rgb(79, 77, 228) 2px solid;
+}
+.imagen-portada {
+    height: 400px;
+    background-image: url("../img/portada-horiz-bn.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-shadow: 20px;
+}
+
+.texto-display{
+    padding-top: 10px;
+    line-height: 0pt;
+    padding-left: 50px;
+    font-size: 500%;
+    font-weight: bolder;
+    color:rgb(255, 255, 255);
+    text-shadow: rgb(11, 4, 48) 6px 6px 12px;
+}
+
+.texto-display-segundo{
+    padding-top: 10px;
+    line-height: 0pt;
+    padding-left: 50px;
+    font-size: 40px;
+    font-weight: 200;
+    color:rgb(255, 255, 255);
+    text-shadow: rgb(11, 4, 48) 6px 6px 12px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(32, 123, 214)
+}
+
+h1 {
+    color:rgb(13, 6, 61);
+}
+
+h2 {
+    padding-left: 20px;
+}
+
+h3 {padding-top: 10px;
+    line-height: 12pt;
+    padding-left: 50px;
+    font-weight: 200;
+    color:rgb(255, 255, 255);
+    text-shadow: rgb(11, 4, 48) 6px 6px 12px;
+}
+
+h4 {padding-left: 20px;
+}
+
+ul li { 
+    display: inline-block;
+}
+
+.padding-general{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.parrafos-normales {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-weight: 200;
+    text-align: justify;
+    
+}
+
+.padding{
+    padding-left: 20px;
+}
+
+.footer {
+    color: rgb(32, 123, 214);
+    background-color: rgb(16, 62, 105);
+    text-align: center;
+    padding-top: 1px;
+}
+
+.tabla-calendario{
+    padding-left: 20px;
+    text-align: center;
+    background-color:rgb(88, 189, 236);
+}

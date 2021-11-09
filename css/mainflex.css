@@ -1,0 +1,197 @@
+
+/*A romper código..*/
+body {
+    background-color: #002f6c;
+    font-family: 'Georama', sans-serif;
+    margin: 0;
+}
+
+/* .grid-container{
+    font-family: 'Georama', sans-serif;
+    background-color: coral; */
+
+/* .menu-principal {
+    background-color: rgb(16, 47, 105);
+    height: auto;
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+} */
+/* 
+#menu-navegacion li a {
+    color: rgb(255, 255, 255);
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: rgb(79, 77, 228) 2px solid;
+} */
+
+.header{
+    grid-area: header;
+    background-color: #000063;
+    color: ghostwhite;
+}
+
+.list-nav{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 0; 
+}
+
+.list-nav li{
+    padding-right: 10px;
+    border-right: solid 1px #4f83cc;
+    list-style: none;
+}
+
+.list-nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: all .2s ease-in-out;
+}
+
+.list-nav a:hover {
+       text-shadow: rgb(11, 4, 48) 8px 8px 3px;
+       color:rgb(0, 81, 255)
+   }
+
+#logo{
+    justify-content: left;
+    padding-right: 20px;
+}
+
+.imagen-portada {
+    height: 400px;
+    background-image: url("../img/portada-horiz-bn.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-shadow: 20px;
+}
+
+.texto-display{
+    padding-top: 10px;
+    line-height: 0pt;
+    padding-left: 50px;
+    font-size: 500%;
+    font-weight: bolder;
+    color:rgb(255, 255, 255);
+    text-shadow: rgb(11, 4, 48) 6px 6px 12px;
+}
+
+.texto-display-segundo{
+    padding-top: 10px;
+    line-height: 0pt;
+    padding-left: 50px;
+    font-size: 40px;
+    font-weight: 200;
+    color:rgb(255, 255, 255);
+    text-shadow: rgb(11, 4, 48) 6px 6px 12px;
+}
+
+.jugadora-a{
+    transition: all .2s ease-in-out;
+}
+
+.jugadora-a:hover{
+    filter: grayscale(0.5) blur(1px);
+    color:rgb(0, 81, 255);
+}
+
+a {
+    text-decoration: none;  
+    color: rgb(32, 123, 214)
+}
+
+h1 {
+    color:rgb(13, 6, 61);
+}
+
+h2 {
+    padding-left: 20px;
+}
+
+h3 {padding-top: 10px;
+    line-height: 12pt;
+    padding-left: 50px;
+    font-weight: 200;
+    color:rgb(255, 255, 255);
+    text-shadow: rgb(11, 4, 48) 6px 6px 12px;
+}
+
+h4 {padding-left: 20px;
+}
+
+ul li { 
+    display: inline-block;
+}
+
+
+/* Mis estilos flex */
+/* Usé diferentes para ver qué tal quedaban en la página*/
+.videos-container{
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.videos-container div{
+    width: 200px;
+    text-align: center;
+    color: cornsilk;
+    margin: 10px;
+}
+
+.galeria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: cornsilk;
+}
+
+.padding-general{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.parrafos-normales {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-weight: 200;
+    text-align: justify;
+}
+
+.nombres {
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+    text-align: justify;
+}
+
+.padding{
+    padding-left: 20px;
+}
+
+.footer{
+    grid-area: footer;
+    text-align: center;
+    color: #7ec4fa;
+    background-color: #01579b;
+}
+
+.footer-redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabla-calendario{
+    padding-left: 20px;
+    text-align: center;
+    background-color:rgb(88, 189, 236);
+}
