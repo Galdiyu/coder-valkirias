@@ -10,7 +10,7 @@
     ;
 }
 
-.grid-container /* div */ header{
+.grid-container header{
     padding: 0;
 }
 
@@ -25,7 +25,6 @@ body {
     background-color: #000063;
     color: ghostwhite;
 }
-
 
 .color-nav{
     background-color: #000063;
@@ -242,8 +241,19 @@ ul{
 
 .nombres {
     color: rgb(255, 255, 255);
+    font-size: large;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 2;
+    text-shadow: rgb(11, 4, 48) 3px 3px 10px;
+
+}
+
+.estadisticas {
+    color: rgb(255, 255, 255);
     font-weight: 200;
     text-align: justify;
+    line-height: 1;
 }
 
 .margin-space{
